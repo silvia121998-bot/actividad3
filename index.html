@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestor de Productos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Gestor de productos</h1>
+<p>CRUD con JavaScript</p>
+</header>
+
+<main class="container">
+
+<!-- FORMULARIO -->
+<section class="card form">
+<h2>Agregar producto</h2>
+
+<input id="imagen" type="text" placeholder="URL imagen">
+<input id="titulo" type="text" placeholder="Nombre del producto">
+<textarea id="descripcion" placeholder="Descripción"></textarea>
+<input id="valor" type="number" placeholder="Valor">
+<input id="cupon" type="text" placeholder="Cupón (DESC50)">
+
+<button onclick="guardarProducto()">Guardar</button>
+
+<p class="cupon-info">Usa <strong>DESC50</strong> para 50% OFF</p>
+</section>
+
+<!-- PRODUCTOS -->
+<section class="card productos">
+
+<div class="header-productos">
+<h2>Productos</h2>
+<span id="contador">0 productos</span>
+</div>
+
+<div id="lista"></div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

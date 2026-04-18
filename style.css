@@ -1,0 +1,128 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#f6e58d,#dff9fb);
+padding:30px;
+}
+
+header{
+text-align:center;
+margin-bottom:30px;
+}
+
+header h1{
+font-size:50px;
+color:#0a4d8c;
+}
+
+header p{
+color:#666;
+}
+
+.container{
+display:grid;
+grid-template-columns:1fr 2fr;
+gap:25px;
+max-width:1300px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+input, textarea{
+width:100%;
+padding:12px;
+margin-top:10px;
+margin-bottom:15px;
+border-radius:10px;
+border:1px solid #ccc;
+}
+
+textarea{
+resize:none;
+height:90px;
+}
+
+button{
+background:#0a4d8c;
+color:white;
+border:none;
+padding:12px;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#083866;
+}
+
+.cupon-info{
+margin-top:10px;
+color:#777;
+}
+
+/* PRODUCTOS */
+.header-productos{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+#contador{
+background:#f6e58d;
+padding:8px 15px;
+border-radius:20px;
+font-weight:bold;
+}
+
+.producto{
+display:flex;
+gap:15px;
+padding:15px;
+background:#f9f9f9;
+border-radius:15px;
+margin-bottom:15px;
+align-items:center;
+}
+
+.producto img{
+width:100px;
+height:100px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.producto h3{
+color:#0a4d8c;
+}
+
+.botones{
+margin-top:10px;
+}
+
+.botones button{
+margin-right:8px;
+}
+
+@media(max-width:900px){
+.container{
+grid-template-columns:1fr;
+}
+}
