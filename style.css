@@ -6,7 +6,7 @@ font-family:'Segoe UI', sans-serif;
 }
 
 body{
-background:linear-gradient(135deg,#f6e58d,#dff9fb);
+background:linear-gradient(135deg,#e8d5ff,#d9f0ff);
 padding:30px;
 }
 
@@ -17,7 +17,7 @@ margin-bottom:30px;
 
 header h1{
 font-size:50px;
-color:#0a4d8c;
+color:#6a0dad;
 }
 
 header p{
@@ -59,7 +59,7 @@ height:90px;
 }
 
 button{
-background:#0a4d8c;
+background:#6a0dad;
 color:white;
 border:none;
 padding:12px;
@@ -69,7 +69,7 @@ font-size:16px;
 }
 
 button:hover{
-background:#083866;
+background:#4b0082;
 }
 
 .cupon-info{
@@ -86,7 +86,7 @@ margin-bottom:20px;
 }
 
 #contador{
-background:#f6e58d;
+background:#d8b4fe;
 padding:8px 15px;
 border-radius:20px;
 font-weight:bold;
